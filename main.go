@@ -34,10 +34,10 @@ func main() {
 		fmt.Println(aaa)
 	}
 	return
-	b := B{A{"hello, world", "张三"}, "李四"}
+	b := B{A{"hello, world", "张三213"}, "李四"}
 
 	b.Say()
 	fmt.Println("子类的名字为1：", b.Name)
 
-	fmt.Println("父类的名字为：", b.A.Name)
+	fmt.Println("父类的名字为12：", b.A.Name)
 }
